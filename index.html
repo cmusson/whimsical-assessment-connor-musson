@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link href="/favicon.png" rel="shortcut icon" type="image/x-icon" />
+
+    <title>Frontend Challenge</title>
+    <script type="module">
+      import { drawAndSelect } from "./src/main.js";
+      drawAndSelect();
+    </script>
+  </head>
+  <body onload="drawAndSelect();">
+    <canvas id="canvas" width="2500" height="1000"></canvas>
+  </body>
+</html>
